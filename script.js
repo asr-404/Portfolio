@@ -1,3 +1,3 @@
 // asr404
-// from 2:12:57 se 
-// .contact .contact-info-item p
+// from 2:16:00 se 
+// mediaquery started

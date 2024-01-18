@@ -668,3 +668,29 @@ h3.my-profssion{
     height: 50px;
     padding: 0 50px;
 }
+/* *********************  MediaQuery Start *********************/
+/* 1199px */
+@media (max-width: 1199px)
+{
+    .aside{
+        left: -270px;
+    }
+    .main-content{
+        padding-left: 0;
+    }
+    .info-item p span{
+        display: block;
+        margin:0;
+    }
+}
+
+@media (max-width: 1024px){
+    .home-img::before {
+        left:31px;
+    }
+    .home-img::after{
+        right: 27px;
+        bottom: -25px;
+    }
+
+}

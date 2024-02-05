@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="style-switcher.css">
   </head>
 
   <body>
@@ -226,7 +227,7 @@
                             </p>
                           </div>
                           <!-- =========== timeline item ============= -->
-                          <!-- <div class="timeline-item">
+                          <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
                               <i class="fa fa-calendar"></i> 2021 - 2023
@@ -241,9 +242,9 @@
                               reprehenderit quis eaque dicta aut sapiente cum
                               eos voluptatibus accusamus?
                             </p>
-                          </div> -->
+                          </div> 
                           <!-- =========== timeline item ============= -->
-                          <!-- <div class="timeline-item">
+                          <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
                               <i class="fa fa-calendar"></i> 2021 - 2023
@@ -258,7 +259,7 @@
                               reprehenderit quis eaque dicta aut sapiente cum
                               eos voluptatibus accusamus?
                             </p>
-                          </div> -->
+                          </div> 
                         </div>
                       </div>
                     </div>
@@ -625,6 +626,23 @@
       <!-- ================ Main Content End ==========================-->
     </div>
     <!-- ---========== Main Container End ========-------- -->
+    <!--============== style switch ============== -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler">
+        <i class="fas fa-cog fa-skin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas fa-moon"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActive('color-1')"></span>
+        <span class="color-2" onclick="setActive('color-2')"></span>
+        <span class="color-3" onclick="setActive('color-3')"></span>
+        <span class="color-4" onclick="setActive('color-4')"></span>
+        <span class="color-5" onclick="setActive('color-5')"></span>
+      </div>
+    </div>
     <!-- ----==========js =======----- -->
     <script src="script.js"></script>
   </body>

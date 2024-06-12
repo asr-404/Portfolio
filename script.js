@@ -1,3 +1,7 @@
-// asr404
-// from 2:16:00 se 
-// mediaquery started 
+// typing animation
+var typed = new Typed(".typing",{
+    strings:["","Web Designer", "Web Developer"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+})

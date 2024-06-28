@@ -222,7 +222,10 @@ ul {
 {
     margin-top: 50px;
 }
-
+.navbar-color-change {
+    background-color: #fc2929 !important;
+    color: black !important;
+}
 .aside .nav li
 {
     margin-bottom: 20px;

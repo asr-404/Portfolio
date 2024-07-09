@@ -297,8 +297,8 @@ h3.my-profssion{
     width:80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 50px;
-    bottom: -35px;
+    right: 45px;
+    bottom: 0px;
 }
 .home-img::before{
     content: '';
@@ -582,8 +582,10 @@ h3.my-profssion{
 }
 
 .portfolio .portfolio-item{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    /* flex: 0 0 33.33%;
+    max-width: 33.33%; */
+    flex: 0 0 100%;
+    max-width: 50%;
     margin-bottom: 30px;
 }
 
@@ -682,6 +684,16 @@ h3.my-profssion{
     padding: 0 50px;
 }
 /* *********************  MediaQuery Start *********************/
+@media (max-width:1300px){
+    .home-img::before{
+        left: 45px;
+        top: -35px;
+    }
+    .home-img::after{
+        right: 35px;
+        bottom: 30px;
+    }
+}
 /* 1199px */
 @media (max-width: 1199px)
 {
@@ -704,6 +716,7 @@ h3.my-profssion{
     .home-img::after{
         right: 27px;
         bottom: -25px;
+        bottom: 22px;
     }
 
 }

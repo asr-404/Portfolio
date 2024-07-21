@@ -139,6 +139,13 @@ ul {
     z-index:10;
     
 }
+.aside {
+    transition: left 0.3s ease;
+}
+
+.aside.open {
+    left: 0;
+}
 .aside .logo{
     position: absolute;
     top: 50px;
@@ -178,7 +185,7 @@ ul {
     top: 0;
     right: 0;
 }
-.aside .nav-toggler
+.nav-toggler
 {
     height: 40px;    
     width: 45px;
@@ -193,14 +200,14 @@ ul {
     align-items: center;
     justify-content: center;
 }
-.aside .nav-toggler span{
+.nav-toggler span{
     height: 2px;
     width: 18px;
     background: var(--skin-color);
     display: inline-block;
     position: relative;
 }
-.aside .nav-toggler span::before{
+.nav-toggler span::before{
     content: '';
     width: 18px;
     height: 2px;
@@ -209,7 +216,7 @@ ul {
     top:-6px;
     left: 0;
 }
-.aside .nav-toggler span::after{
+.nav-toggler span::after{
     content: '';
     width: 18px;
     height: 2px;
@@ -758,7 +765,36 @@ h3.my-profssion{
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .aside {
+        left: -270px;
+    }
+
+    .aside.open {
+        left: 0;
+    }
+
+    .nav-toggler {
+        display: flex;
+        position: fixed;
+        z-index: 100;
+        top: 13px;
+        left: 12px;
+        border: 1px solid red;
+        /* right: 20px !important; */
+    }
+    .about .about-content .personal-info .info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .container {
+        padding-top: 130px;
+        padding-bottom: 0;
+    }
+    .home{
+        min-height: 70vh;
+    }
 }
+
 
 
 

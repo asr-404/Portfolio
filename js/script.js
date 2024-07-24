@@ -11,8 +11,8 @@ document.getElementById('downloadCvBtn').addEventListener('click', function(even
     event.preventDefault(); // Prevent the default action
 
     var link = document.createElement('a');
-    link.href = '/image.png';
-    link.download = 'CV.png'; // Specify the default name for the downloaded file
+    link.href = '/Akash-cv.pdf';
+    link.download = 'ASR-CV.pdf'; // Specify the default name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
